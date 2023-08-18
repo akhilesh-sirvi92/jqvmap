@@ -1,12 +1,7 @@
 {
-  "name": "jqvmap",
-  "version": "1.5.1",
-  "homepage": "http://jqvmap.com",
-  "author": {
-    "name": "JQVMap",
-    "email": "me@peterschmalfeldt.com",
-    "url": "http://jqvmap.com"
-  },
+  "name": "apc-jqvmap",
+  "version": "1.0.0",
+  "author": "Akhilesh sirvi",
   "license": "(MIT OR GPL-3.0)",
   "description": "jQuery Vector Map Library",
   "main": "dist/jquery.vmap.min.js",
@@ -19,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/manifestinteractive/jqvmap.git"
+    "url": "git+ssh://git@github.com:akhilesh-sirvi92/jqvmap.git"
   },
   "dependencies": {
     "jquery": "~1.11.3"
@@ -41,5 +36,12 @@
     "grunt-shell": "^1.1.1",
     "gruntfile-gtx": "^0.3.0",
     "require-directory": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/akhilesh-sirvi92/jqvmap/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }
